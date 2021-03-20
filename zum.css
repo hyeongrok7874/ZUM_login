@@ -78,6 +78,7 @@ h3{
     text-align: center;
     margin-top: 20px;
     font-size: 15px;
+    margin-bottom: 20px;
 }
 .login-box .other-login .with-facebook > button , .with-twitter > button , .with-kakao > button{
     width: 380px;
