@@ -50,6 +50,7 @@ h3{
     border: 1px solid #f1f1f1;
     padding: 0 15px;
     font-size: 15px;
+    outline: none;
 }
 .login-box .id {
     margin-top: 20px;
