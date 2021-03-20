@@ -1,19 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 header{
-    width: 1792px;
     height: 100px;
     background: #1b52ed;
     background: linear-gradient(to right,#3faeeb,#3967d0 46%,#3846d0);
     background: -webkit-linear-gradient(left,#3faeeb,#3967d0 46%,#3846d0);
-    margin-left: -10px;
-    margin-top: -10px;
+    display: flex;
+    align-items: center;
+	flex-direction: column;
+	justify-content: center;
+    padding: 25px;
 }
 header > img {
     width: 222px;
-    height: 35px;
-    display: inline-block;
-    margin-bottom: 10px;
-    margin-top: 30px;
-    margin-left: 790px;
+    height: 41px;
 }
 .container {
     width: 1792px;
